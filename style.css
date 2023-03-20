@@ -1,9 +1,78 @@
+body { background: #f19696;  }
 #menu
 {
 	margin: 0;
-	padding: 0;
+	padding: 300;
 	border: none;
 	outline: none;
-    background: #3e4ace;
+    background: #00ccff;
+    text-align: center;
+	font-family: Calibri; 
+	
     text-align: center;
 }
+
+ 
+
+#about{
+	background: #8ee8ff;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	overflow: hidden;   
+	font-family: Calibri; 
+	
+    text-align: center;
+ }
+
+ #photos{
+	background: #f19696;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	overflow: hidden;   
+    text-align: center;
+	font-family: Calibri; 
+ }
+ 
+ #playlist{
+	background: #8ee8ff;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	overflow: hidden;   
+    text-align: center;
+	font-family: Calibri; 
+ }
+ #like{
+	background: #f19696;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	overflow: hidden;   
+    text-align: center;
+	font-family: Calibri; 
+ }
+ #qrcoder{
+	background: #8ee8ff;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	overflow: hidden;   
+    text-align: center;
+	font-family: Calibri; 
+ }
+ #spa{
+	background: #f19696;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	overflow: hidden;   
+    text-align: center;
+	font-family: Calibri; 
+ }
+ #contact{
+	background: #8ee8ff;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	overflow: hidden;   
+    text-align: center;
+	font-family: Calibri; 
+ }
+ 
+ 
+ 
