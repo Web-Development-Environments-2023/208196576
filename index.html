@@ -1,179 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8">
+  <title> Personal Web Page </title>
+  <meta name="description" content="">
+	<meta name="author" content="">
+
+ <!--link to css-->    
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+  <!-- menu -->
+  <header id ="home">
+    <div id="menu">
+      <img id="menuLogo" src="MaskJoe.jpg" width="50" height="50"></img>
+      <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#photos">My Photos</a></li>
+      <li><a href="#playlist">My Playlist</a></li>
+      <li><a href="#like">Like</a></li>
+      <li><a href="#qrcoder">QR code</a></li>
+      <li><a href="#spa">Q&A</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </div>
+	</header>
+  <!--AboutSection-->
+  <section id="about" class="section">
+    <div class="row">    
+      <div id="abountText" class="nine columns main-col">
+        <h1 class="About Me">Joe Biden</h1>
+        <h2 class="About Me">About Joe Biden</h2>
+        <p>Joseph Robinette Biden Jr. is an American politician who is the 46th and current president of the United States. A member of the Democratic Party, he previously served as the 47th vice president from 2009 to 2017 under President Barack Obama, and represented Delaware in the United States Senate from 1973 to 2009.</p>
+      </div>
+    </div> 
+  </section> 
+  <!--End - AboutSection-->
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+  <!--PhotosSection-->
+  <section id="photos" class="section">
+    <div class="row">
+    <h1>Joe Biden Photos</h1>     
+        <div class="columns photo-item">
+            <a href="#happy" title="" >
+              <img alt="" src="HappyJoe.jpg" style="width: 600px; height: 500px;">
+            </a>
+        </div> 
+        <div class="columns photo-item">
+            <a href="#cool" title="">
+              <img alt="" src="CoolJoe.jpg" style="width: 600px; height: 500px;">
+            </a>
+        </div>
+        <div class="columns photo-item">
+            <a href="#winning" title="">
+              <img alt="" src="ThinkingJoe.jpg" style="width: 600px; height: 500px;">
+            </a>
+        </div>
+   </div> 
+  </section>
+  <!--End - PhotosSection-->
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+  <!--PlaylistSection-->
+  <section id="playlist" class="section">
+    <div class="row">
+      <div class=" col">
+        <h1>my playlist</h1>
+        <iframe width="560" height="315" src="https://youtu.be/40GEaFde6ko" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div><!-- col end -->
+    </div>
+  </section>
+  <!--End - PlaylistSection-->
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+  <!--LikeSection-->
+  <section id="like" class="section">
+    <h1>Give Joe A Like</h1>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+    <a href="WinningJoe.jpg" target="_blank">
+      <img src="like.jpg" alt="Your Image" style="width: 600px; height: 500px;">
+    </a>
+  
+  </section>
+  <!--End - LikeSection-->
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+  <!--QRSection-->
+  <section id="qrcoder" class="section">
+    <h1>Scan the QR</h1>     
+    <div class="columns photo-item">
+        <a href="#QR" title="" >
+          <img alt="" src="QR.png" style="width: 300px; height: 300;">
+        </a>
+    </div> 
+  </section>
+  <!--End - QRSection-->
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+  <section id="spa" class="section">
+    <h1>Answer</h1>
+    <h3>Web 1.0, also known as the "Static Web," was characterized by simple, static HTML pages that were typically manually created and updated. It was mainly used for providing information to users.
+
+      Web 2.0, also known as the "Interactive Web," is characterized by dynamic, interactive web applications that allow users to contribute and share content such as blogs, wikis, and social networking sites. Web 2.0 also introduced the use of Ajax, which allows for asynchronous data exchange between the user's browser and the server, providing a more seamless and dynamic user experience.
+      
+      Web 3.0, also known as the "Semantic Web," is characterized by the use of machine-readable data and metadata to enable the creation of more intelligent and personalized web applications. The Semantic Web is based on the idea of creating a web of data, where information can be linked and processed by machines, making it much easier for users to find, process, and use information from multiple sources.
+      
+      In summary, the main difference between these three generations of the web are the level of interactivity, the use of intelligent technologies and the type of content and data that is shared and processed.</h3>
+
+      <h3>Exampe: In researching information about a specific topic for a school project. 
+
+        In the Web 1.0 era, you might have used a search engine to find and visit various websites, but the information you found would be limited to the pages you accessed. The websites would likely be static and not allow for much interaction or customization.
+        
+        In the Web 2.0 era, you might use a more advanced search engine that is integrated with social media and other user-generated content, such as blogs and forums. The search engine might personalize the results based on your previous search history or the results preferred by people in your online social networks. You could also use collaborative tools such as wikis to share information and work together with classmates on the project.
+        
+        In the Web 3.0 era, you might use a search engine that utilizes machine learning and artificial intelligence to understand the context and semantic meaning of your search query, giving you more relevant and accurate results. The search engine might also understand the relationships between different types of data and provide you with information and recommendations not just from websites, but also from databases and other sources. The search engine might be able to understand your preferences and goals, and suggest additional resources and tools to help you complete your project.</h3>
+  </section>
+
+  <section id="contact" class="section">
+    <form  action="mailto:lironzv@post.bgu.ac.il"   method="POST"    enctype="multipart/form-data" >
+     
+        <h1>tell us how much you love joe</h1>
+        <p>mail</p>
+        <input id="email" name="email" type="mail" placeholder="you mail address">
+        <p>subject</p>
+        <input id="subject" name="subject" placeholder="subject" type="text">
+        <p>body</p>
+        <textarea id="body" placeholder="body" name="body" rows="8" cols="10"  data-emoji-picker="true" ></textarea>
+        
+        <input id="submit" type="submit" value="send" >
+
+      
+  </form>
+  </section>
 
 
 <script type="text/javascript">

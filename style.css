@@ -1,7 +1,9 @@
 #menu
 {
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+    background: #3e4ace;
+    text-align: center;
 }
